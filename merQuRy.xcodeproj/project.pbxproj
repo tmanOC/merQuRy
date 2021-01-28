@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */; };
+		04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */; };
+		04F1222025C35BAA00BB95C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221F25C35BAA00BB95C0 /* ViewController.swift */; };
+		04F1222325C35BAA00BB95C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222125C35BAA00BB95C0 /* Main.storyboard */; };
+		04F1222525C35BAC00BB95C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222425C35BAC00BB95C0 /* Assets.xcassets */; };
+		04F1222825C35BAC00BB95C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */; };
+		04F1223325C35BAC00BB95C0 /* merQuRyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */; };
+		04F1223E25C35BAC00BB95C0 /* merQuRyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F1222F25C35BAC00BB95C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F1221025C35BAA00BB95C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F1221725C35BAA00BB95C0;
+			remoteInfo = merQuRy;
+		};
+		04F1223A25C35BAC00BB95C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F1221025C35BAA00BB95C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F1221725C35BAA00BB95C0;
+			remoteInfo = merQuRy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F1221825C35BAA00BB95C0 /* merQuRy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = merQuRy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F1221F25C35BAA00BB95C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F1222225C35BAA00BB95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F1222425C35BAC00BB95C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F1222725C35BAC00BB95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F1222925C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F1222E25C35BAC00BB95C0 /* merQuRyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = merQuRyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merQuRyTests.swift; sourceTree = "<group>"; };
+		04F1223425C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F1223925C35BAC00BB95C0 /* merQuRyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = merQuRyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merQuRyUITests.swift; sourceTree = "<group>"; };
+		04F1223F25C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F1221525C35BAA00BB95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1222B25C35BAC00BB95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1223625C35BAC00BB95C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F1220F25C35BAA00BB95C0 = {
+			isa = PBXGroup;
+			children = (
+				04F1221A25C35BAA00BB95C0 /* merQuRy */,
+				04F1223125C35BAC00BB95C0 /* merQuRyTests */,
+				04F1223C25C35BAC00BB95C0 /* merQuRyUITests */,
+				04F1221925C35BAA00BB95C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F1221925C35BAA00BB95C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F1221825C35BAA00BB95C0 /* merQuRy.app */,
+				04F1222E25C35BAC00BB95C0 /* merQuRyTests.xctest */,
+				04F1223925C35BAC00BB95C0 /* merQuRyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F1221A25C35BAA00BB95C0 /* merQuRy */ = {
+			isa = PBXGroup;
+			children = (
+				04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */,
+				04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */,
+				04F1221F25C35BAA00BB95C0 /* ViewController.swift */,
+				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
+				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
+				04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */,
+				04F1222925C35BAC00BB95C0 /* Info.plist */,
+			);
+			path = merQuRy;
+			sourceTree = "<group>";
+		};
+		04F1223125C35BAC00BB95C0 /* merQuRyTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */,
+				04F1223425C35BAC00BB95C0 /* Info.plist */,
+			);
+			path = merQuRyTests;
+			sourceTree = "<group>";
+		};
+		04F1223C25C35BAC00BB95C0 /* merQuRyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */,
+				04F1223F25C35BAC00BB95C0 /* Info.plist */,
+			);
+			path = merQuRyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F1221725C35BAA00BB95C0 /* merQuRy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1224225C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRy" */;
+			buildPhases = (
+				04F1221425C35BAA00BB95C0 /* Sources */,
+				04F1221525C35BAA00BB95C0 /* Frameworks */,
+				04F1221625C35BAA00BB95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = merQuRy;
+			productName = merQuRy;
+			productReference = 04F1221825C35BAA00BB95C0 /* merQuRy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F1222D25C35BAC00BB95C0 /* merQuRyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1224525C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRyTests" */;
+			buildPhases = (
+				04F1222A25C35BAC00BB95C0 /* Sources */,
+				04F1222B25C35BAC00BB95C0 /* Frameworks */,
+				04F1222C25C35BAC00BB95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F1223025C35BAC00BB95C0 /* PBXTargetDependency */,
+			);
+			name = merQuRyTests;
+			productName = merQuRyTests;
+			productReference = 04F1222E25C35BAC00BB95C0 /* merQuRyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F1223825C35BAC00BB95C0 /* merQuRyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F1224825C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRyUITests" */;
+			buildPhases = (
+				04F1223525C35BAC00BB95C0 /* Sources */,
+				04F1223625C35BAC00BB95C0 /* Frameworks */,
+				04F1223725C35BAC00BB95C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F1223B25C35BAC00BB95C0 /* PBXTargetDependency */,
+			);
+			name = merQuRyUITests;
+			productName = merQuRyUITests;
+			productReference = 04F1223925C35BAC00BB95C0 /* merQuRyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F1221025C35BAA00BB95C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					04F1221725C35BAA00BB95C0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					04F1222D25C35BAC00BB95C0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 04F1221725C35BAA00BB95C0;
+					};
+					04F1223825C35BAC00BB95C0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 04F1221725C35BAA00BB95C0;
+					};
+				};
+			};
+			buildConfigurationList = 04F1221325C35BAA00BB95C0 /* Build configuration list for PBXProject "merQuRy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F1220F25C35BAA00BB95C0;
+			productRefGroup = 04F1221925C35BAA00BB95C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F1221725C35BAA00BB95C0 /* merQuRy */,
+				04F1222D25C35BAC00BB95C0 /* merQuRyTests */,
+				04F1223825C35BAC00BB95C0 /* merQuRyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F1221625C35BAA00BB95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1222825C35BAC00BB95C0 /* LaunchScreen.storyboard in Resources */,
+				04F1222525C35BAC00BB95C0 /* Assets.xcassets in Resources */,
+				04F1222325C35BAA00BB95C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1222C25C35BAC00BB95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1223725C35BAC00BB95C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F1221425C35BAA00BB95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1222025C35BAA00BB95C0 /* ViewController.swift in Sources */,
+				04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */,
+				04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1222A25C35BAC00BB95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1223325C35BAC00BB95C0 /* merQuRyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F1223525C35BAC00BB95C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F1223E25C35BAC00BB95C0 /* merQuRyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F1223025C35BAC00BB95C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F1221725C35BAA00BB95C0 /* merQuRy */;
+			targetProxy = 04F1222F25C35BAC00BB95C0 /* PBXContainerItemProxy */;
+		};
+		04F1223B25C35BAC00BB95C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F1221725C35BAA00BB95C0 /* merQuRy */;
+			targetProxy = 04F1223A25C35BAC00BB95C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F1222125C35BAA00BB95C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F1222225C35BAA00BB95C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F1222725C35BAC00BB95C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F1224025C35BAC00BB95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F1224125C35BAC00BB95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F1224325C35BAC00BB95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F1224425C35BAC00BB95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F1224625C35BAC00BB95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/merQuRy.app/merQuRy";
+			};
+			name = Debug;
+		};
+		04F1224725C35BAC00BB95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/merQuRy.app/merQuRy";
+			};
+			name = Release;
+		};
+		04F1224925C35BAC00BB95C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = merQuRy;
+			};
+			name = Debug;
+		};
+		04F1224A25C35BAC00BB95C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4CJ5A6WXU;
+				INFOPLIST_FILE = merQuRyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.tman.merQuRyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = merQuRy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F1221325C35BAA00BB95C0 /* Build configuration list for PBXProject "merQuRy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1224025C35BAC00BB95C0 /* Debug */,
+				04F1224125C35BAC00BB95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1224225C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1224325C35BAC00BB95C0 /* Debug */,
+				04F1224425C35BAC00BB95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1224525C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1224625C35BAC00BB95C0 /* Debug */,
+				04F1224725C35BAC00BB95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F1224825C35BAC00BB95C0 /* Build configuration list for PBXNativeTarget "merQuRyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F1224925C35BAC00BB95C0 /* Debug */,
+				04F1224A25C35BAC00BB95C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F1221025C35BAA00BB95C0 /* Project object */;
+}
