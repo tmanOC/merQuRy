@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class QRContactsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+
+        // Have an + button for creating contacts
+        // List contacts loaded from the ViewModel
+        // Tapping a contact should show the QR code
     }
 
 

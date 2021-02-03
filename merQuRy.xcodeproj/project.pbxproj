@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */; };
 		04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */; };
-		04F1222025C35BAA00BB95C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221F25C35BAA00BB95C0 /* ViewController.swift */; };
+		04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */; };
 		04F1222325C35BAA00BB95C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222125C35BAA00BB95C0 /* Main.storyboard */; };
 		04F1222525C35BAC00BB95C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222425C35BAC00BB95C0 /* Assets.xcassets */; };
 		04F1222825C35BAC00BB95C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */; };
 		04F1223325C35BAC00BB95C0 /* merQuRyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */; };
 		04F1223E25C35BAC00BB95C0 /* merQuRyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */; };
+		04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */; };
+		04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1225625C35D3A00BB95C0 /* ContactModel.swift */; };
+		04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1226425C35F7000BB95C0 /* ContactRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		04F1221825C35BAA00BB95C0 /* merQuRy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = merQuRy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04F1221F25C35BAA00BB95C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactsVC.swift; sourceTree = "<group>"; };
 		04F1222225C35BAA00BB95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04F1222425C35BAC00BB95C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F1222725C35BAC00BB95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		04F1223925C35BAC00BB95C0 /* merQuRyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = merQuRyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merQuRyUITests.swift; sourceTree = "<group>"; };
 		04F1223F25C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactsViewModel.swift; sourceTree = "<group>"; };
+		04F1225625C35D3A00BB95C0 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		04F1226425C35F7000BB95C0 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */,
 				04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */,
-				04F1221F25C35BAA00BB95C0 /* ViewController.swift */,
+				04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */,
+				04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */,
+				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
+				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
 				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
 				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
 				04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F1222025C35BAA00BB95C0 /* ViewController.swift in Sources */,
+				04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */,
+				04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */,
+				04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */,
 				04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */,
 				04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */,
+				04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
