@@ -13,11 +13,12 @@
 		04F1222325C35BAA00BB95C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222125C35BAA00BB95C0 /* Main.storyboard */; };
 		04F1222525C35BAC00BB95C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222425C35BAC00BB95C0 /* Assets.xcassets */; };
 		04F1222825C35BAC00BB95C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */; };
-		04F1223325C35BAC00BB95C0 /* merQuRyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */; };
+		04F1223325C35BAC00BB95C0 /* FileDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223225C35BAC00BB95C0 /* FileDatabaseTests.swift */; };
 		04F1223E25C35BAC00BB95C0 /* merQuRyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */; };
 		04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */; };
 		04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1225625C35D3A00BB95C0 /* ContactModel.swift */; };
 		04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1226425C35F7000BB95C0 /* ContactRepository.swift */; };
+		04F22A0125D0630800426353 /* ContactRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F22A0025D0630800426353 /* ContactRepositoryTests.swift */; };
 		04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +49,7 @@
 		04F1222725C35BAC00BB95C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F1222925C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F1222E25C35BAC00BB95C0 /* merQuRyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = merQuRyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merQuRyTests.swift; sourceTree = "<group>"; };
+		04F1223225C35BAC00BB95C0 /* FileDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDatabaseTests.swift; sourceTree = "<group>"; };
 		04F1223425C35BAC00BB95C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04F1223925C35BAC00BB95C0 /* merQuRyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = merQuRyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1223D25C35BAC00BB95C0 /* merQuRyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merQuRyUITests.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactsViewModel.swift; sourceTree = "<group>"; };
 		04F1225625C35D3A00BB95C0 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		04F1226425C35F7000BB95C0 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		04F22A0025D0630800426353 /* ContactRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepositoryTests.swift; sourceTree = "<group>"; };
 		04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +127,8 @@
 		04F1223125C35BAC00BB95C0 /* merQuRyTests */ = {
 			isa = PBXGroup;
 			children = (
-				04F1223225C35BAC00BB95C0 /* merQuRyTests.swift */,
+				04F22A0025D0630800426353 /* ContactRepositoryTests.swift */,
+				04F1223225C35BAC00BB95C0 /* FileDatabaseTests.swift */,
 				04F1223425C35BAC00BB95C0 /* Info.plist */,
 			);
 			path = merQuRyTests;
@@ -284,7 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F1223325C35BAC00BB95C0 /* merQuRyTests.swift in Sources */,
+				04F22A0125D0630800426353 /* ContactRepositoryTests.swift in Sources */,
+				04F1223325C35BAC00BB95C0 /* FileDatabaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

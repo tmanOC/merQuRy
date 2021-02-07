@@ -13,7 +13,7 @@ protocol CreateAndRead {
     func setData(_ data: [String: String], inTable: String)
 }
 
-class QRContactRepository {
+class ContactRepository {
     let db: CreateAndRead
     init(database: CreateAndRead) {
         db = database
