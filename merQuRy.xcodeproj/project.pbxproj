@@ -18,6 +18,7 @@
 		04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */; };
 		04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1225625C35D3A00BB95C0 /* ContactModel.swift */; };
 		04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1226425C35F7000BB95C0 /* ContactRepository.swift */; };
+		04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactsViewModel.swift; sourceTree = "<group>"; };
 		04F1225625C35D3A00BB95C0 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		04F1226425C35F7000BB95C0 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */,
 				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
 				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
+				04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */,
 				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
 				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
 				04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */,
 				04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */,
 				04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */,
+				04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */,
 				04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */,
 				04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */,
 				04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */,

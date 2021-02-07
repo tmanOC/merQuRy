@@ -7,7 +7,8 @@
 
 import Foundation
 
-class ContactModel {
+struct ContactModel: Codable {
+    var id: String
     var name: String
     var surname: String
     var number: String
