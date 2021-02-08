@@ -19,6 +19,7 @@
 		04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1225625C35D3A00BB95C0 /* ContactModel.swift */; };
 		04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1226425C35F7000BB95C0 /* ContactRepository.swift */; };
 		04F22A0125D0630800426353 /* ContactRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F22A0025D0630800426353 /* ContactRepositoryTests.swift */; };
+		04F22A0925D0806700426353 /* QRContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F22A0825D0806700426353 /* QRContactTableViewCell.swift */; };
 		04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		04F1225625C35D3A00BB95C0 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		04F1226425C35F7000BB95C0 /* ContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
 		04F22A0025D0630800426353 /* ContactRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepositoryTests.swift; sourceTree = "<group>"; };
+		04F22A0825D0806700426353 /* QRContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactTableViewCell.swift; sourceTree = "<group>"; };
 		04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */,
 				04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */,
 				04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */,
+				04F22A0825D0806700426353 /* QRContactTableViewCell.swift */,
 				04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */,
 				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
 				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */,
+				04F22A0925D0806700426353 /* QRContactTableViewCell.swift in Sources */,
 				04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */,
 				04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */,
 				04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */,

@@ -15,7 +15,8 @@ class QRContactsVC: UITableViewController {
         super.viewDidLoad()
         self.title = "Contacts"
 
-        viewModel = QRContactsViewModel()
+        viewModel = QRContactsViewModel(contactRepository: ContactRepository(database: FileDatabase()))
+        viewModel.loadContacts()
         // Do any additional setup after loading the view.
 
         // Have an + button for creating contacts
@@ -41,8 +42,20 @@ class QRContactsVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        viewModel.contactForIndex(indexPath.row)
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "CONTACT_CELL") as? QRContactTableViewCell else {
+            return UITableViewCell()
+        }
+        guard let contact = viewModel.contactForIndex(indexPath.row) else {
+            cell.nameLabel?.text = ""
+            cell.mobileLabel?.text = ""
+            return cell
+        }
+
+        cell.nameLabel?.text = contact.name + " " + contact.surname
+        cell.mobileLabel?.text = contact.number
+        cell.nameLabel?.sizeToFit()
+        cell.mobileLabel?.sizeToFit()
+        return cell
     }
 }
 

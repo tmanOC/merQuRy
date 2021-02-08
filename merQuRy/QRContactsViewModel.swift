@@ -8,9 +8,9 @@
 import Foundation
 
 protocol QRContactsViewModelInterface {
-    numberOfContacts() -> Int
-    contactForIndex(_ index: Int) -> ContactModel?
-    loadContacts()
+    func numberOfContacts() -> Int
+    func contactForIndex(_ index: Int) -> ContactModel?
+    func loadContacts()
 }
 
 class QRContactsViewModel: QRContactsViewModelInterface {
@@ -23,15 +23,18 @@ class QRContactsViewModel: QRContactsViewModelInterface {
         loadContacts()
     }
 
-    loadContacts() {
-        self.contacts = self.contactRepository.getContacts()
+    func loadContacts() {
+        self.contacts = [ContactModel(id: "1", name: "Test", surname: "User", number: "0001112222"),
+                         ContactModel(id: "2", name: "Test", surname: "User Name", number: "0001112222"),
+                         ContactModel(id: "3", name: "Testing", surname: "User", number: "0001112222555")]
+        //self.contacts = self.contactRepository.getContacts()
     }
 
-    numberOfContacts() -> Int {
+    func numberOfContacts() -> Int {
         return contacts.count
     }
 
-    contactForIndex(_ index: Int) -> ContactModel? {
+    func contactForIndex(_ index: Int) -> ContactModel? {
         if(index >= contacts.count) {
             return nil
         }
