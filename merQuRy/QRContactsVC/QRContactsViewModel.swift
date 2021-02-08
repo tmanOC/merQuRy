@@ -11,12 +11,26 @@ protocol QRContactsViewModelInterface {
     func numberOfContacts() -> Int
     func contactForIndex(_ index: Int) -> ContactModel?
     func loadContacts()
+
+    func setSelectedContact(_ index: Int)
+    func getSelectedContact() -> ContactModel?
 }
 
 class QRContactsViewModel: QRContactsViewModelInterface {
 
     let contactRepository: ContactRepository
     var contacts: [ContactModel] = []
+
+    var selectedContact: ContactModel?
+    func setSelectedContact(_ index: Int) {
+        if(contacts.count > index) {
+            selectedContact = contacts[index]
+        }
+    }
+
+    func getSelectedContact() -> ContactModel? {
+        return selectedContact
+    }
 
     init(contactRepository: ContactRepository) {
         self.contactRepository = contactRepository

@@ -59,9 +59,22 @@ class QRContactsVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //
+        viewModel.setSelectedContact(indexPath.row)
+        self.performSegue(withIdentifier: "ShowContactQRVC", sender: self)
     }
 
+
+
+    @IBSegueAction func showContactDetailQR(_ coder: NSCoder) -> QRContactDetailVC? {
+        let vc = QRContactDetailVC(coder: coder)
+        //vc setup view model
+        //
+        let contact = viewModel.getSelectedContact()
+        //
+        return vc
+    }
+
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CONTACT_CELL") as? QRContactTableViewCell else {
             return UITableViewCell()

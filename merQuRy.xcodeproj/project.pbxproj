@@ -10,6 +10,9 @@
 		048F676025D1AA7F00B60D52 /* AddContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F675F25D1AA7F00B60D52 /* AddContact.storyboard */; };
 		048F676525D1AAC800B60D52 /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F676425D1AAC800B60D52 /* AddContactVC.swift */; };
 		048F676A25D1BC2A00B60D52 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */; };
+		048F677F25D1DB0C00B60D52 /* QRContactDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F677E25D1DB0C00B60D52 /* QRContactDetailVC.swift */; };
+		048F678425D1E2D500B60D52 /* NetworkGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678325D1E2D500B60D52 /* NetworkGet.swift */; };
+		048F678925D1E3FA00B60D52 /* SimpleNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */; };
 		04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */; };
 		04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */; };
 		04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */; };
@@ -47,6 +50,9 @@
 		048F675F25D1AA7F00B60D52 /* AddContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddContact.storyboard; sourceTree = "<group>"; };
 		048F676425D1AAC800B60D52 /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
 		048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
+		048F677E25D1DB0C00B60D52 /* QRContactDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactDetailVC.swift; sourceTree = "<group>"; };
+		048F678325D1E2D500B60D52 /* NetworkGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGet.swift; sourceTree = "<group>"; };
+		048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNetwork.swift; sourceTree = "<group>"; };
 		04F1221825C35BAA00BB95C0 /* merQuRy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = merQuRy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +100,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048F676F25D1DA7600B60D52 /* QRContactsVC */ = {
+			isa = PBXGroup;
+			children = (
+				04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */,
+				04F22A0825D0806700426353 /* QRContactTableViewCell.swift */,
+				04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */,
+			);
+			path = QRContactsVC;
+			sourceTree = "<group>";
+		};
+		048F677625D1DAD400B60D52 /* AddContactVC */ = {
+			isa = PBXGroup;
+			children = (
+				048F676425D1AAC800B60D52 /* AddContactVC.swift */,
+				048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */,
+				048F675F25D1AA7F00B60D52 /* AddContact.storyboard */,
+			);
+			path = AddContactVC;
+			sourceTree = "<group>";
+		};
+		048F677D25D1DAE800B60D52 /* QRContactDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				048F677E25D1DB0C00B60D52 /* QRContactDetailVC.swift */,
+			);
+			path = QRContactDetailVC;
+			sourceTree = "<group>";
+		};
 		04F1220F25C35BAA00BB95C0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,16 +151,15 @@
 		04F1221A25C35BAA00BB95C0 /* merQuRy */ = {
 			isa = PBXGroup;
 			children = (
+				048F677D25D1DAE800B60D52 /* QRContactDetailVC */,
 				04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */,
 				04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */,
-				04F1221F25C35BAA00BB95C0 /* QRContactsVC.swift */,
-				04F22A0825D0806700426353 /* QRContactTableViewCell.swift */,
-				04F1224E25C35CBC00BB95C0 /* QRContactsViewModel.swift */,
+				048F676F25D1DA7600B60D52 /* QRContactsVC */,
 				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
-				048F676425D1AAC800B60D52 /* AddContactVC.swift */,
-				048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */,
-				048F675F25D1AA7F00B60D52 /* AddContact.storyboard */,
+				048F677625D1DAD400B60D52 /* AddContactVC */,
 				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
+				048F678325D1E2D500B60D52 /* NetworkGet.swift */,
+				048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */,
 				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
 				04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */,
 				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
@@ -287,13 +320,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */,
+				048F677F25D1DB0C00B60D52 /* QRContactDetailVC.swift in Sources */,
 				048F676525D1AAC800B60D52 /* AddContactVC.swift in Sources */,
 				04F22A0925D0806700426353 /* QRContactTableViewCell.swift in Sources */,
 				04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */,
+				048F678425D1E2D500B60D52 /* NetworkGet.swift in Sources */,
 				04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */,
 				048F676A25D1BC2A00B60D52 /* AddContactViewModel.swift in Sources */,
 				04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */,
 				04F1221C25C35BAA00BB95C0 /* AppDelegate.swift in Sources */,
+				048F678925D1E3FA00B60D52 /* SimpleNetwork.swift in Sources */,
 				04F1221E25C35BAA00BB95C0 /* SceneDelegate.swift in Sources */,
 				04F1225725C35D3A00BB95C0 /* ContactModel.swift in Sources */,
 			);

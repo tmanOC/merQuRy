@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,10 +65,45 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="SiT-yi-Kex" kind="show" identifier="ShowContactQRVC" destinationCreationSelector="showContactDetailQR:" id="CVZ-el-Ql5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="713.04347826086962" y="88.392857142857139"/>
+        </scene>
+        <!--Contact DetailVC-->
+        <scene sceneID="rr2-CR-CeU">
+            <objects>
+                <viewController id="SiT-yi-Kex" customClass="QRContactDetailVC" customModule="merQuRy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GR3-P4-d2a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZDO-7b-fWe">
+                                <rect key="frame" x="20" y="288" width="374" height="374"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZDO-7b-fWe" secondAttribute="height" multiplier="1:1" id="oet-la-vGQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6pO-jt-dMN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZDO-7b-fWe" firstAttribute="leading" secondItem="6pO-jt-dMN" secondAttribute="leading" constant="20" id="Jy2-Id-4lS"/>
+                            <constraint firstItem="6pO-jt-dMN" firstAttribute="trailing" secondItem="ZDO-7b-fWe" secondAttribute="trailing" constant="20" id="eCe-0l-pn7"/>
+                            <constraint firstItem="ZDO-7b-fWe" firstAttribute="centerY" secondItem="6pO-jt-dMN" secondAttribute="centerY" id="rnr-Ee-WdZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lcV-NN-cPV"/>
+                    <connections>
+                        <outlet property="qrImageView" destination="ZDO-7b-fWe" id="HX4-3j-dot"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bi5-0W-B8T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1517" y="88"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Cz4-GL-oIy">
