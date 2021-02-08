@@ -24,10 +24,10 @@ class QRContactsViewModel: QRContactsViewModelInterface {
     }
 
     func loadContacts() {
-        self.contacts = [ContactModel(id: "1", name: "Test", surname: "User", number: "0001112222"),
+        /*self.contacts = [ContactModel(id: "1", name: "Test", surname: "User", number: "0001112222"),
                          ContactModel(id: "2", name: "Test", surname: "User Name", number: "0001112222"),
-                         ContactModel(id: "3", name: "Testing", surname: "User", number: "0001112222555")]
-        //self.contacts = self.contactRepository.getContacts()
+                         ContactModel(id: "3", name: "Testing", surname: "User", number: "0001112222555")]*/
+        self.contacts = self.contactRepository.getContacts()
     }
 
     func numberOfContacts() -> Int {

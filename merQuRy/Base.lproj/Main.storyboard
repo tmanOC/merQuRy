@@ -57,7 +57,13 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" id="1oG-fl-lNG"/>
+                    <navigationItem key="navigationItem" id="1oG-fl-lNG">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="eoA-kR-agN">
+                            <connections>
+                                <action selector="pushToQRContactsVC:" destination="BYZ-38-t0r" id="GLj-TW-bKn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

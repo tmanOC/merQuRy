@@ -10,19 +10,40 @@ import UIKit
 class QRContactsVC: UITableViewController {
 
     var viewModel: QRContactsViewModelInterface!
+    var contactRepository: ContactRepository!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Contacts"
 
-        viewModel = QRContactsViewModel(contactRepository: ContactRepository(database: FileDatabase()))
-        viewModel.loadContacts()
+        contactRepository = ContactRepository(database: FileDatabase())
+        viewModel = QRContactsViewModel(contactRepository: contactRepository)
+
         // Do any additional setup after loading the view.
 
-        // Have an + button for creating contacts
-        // List contacts loaded from the ViewModel
         // Tapping a contact should show the QR code
     }
+
+    func reloadData() {
+        viewModel.loadContacts()
+        tableView.reloadData()
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        reloadData()
+    }
+    //Maybe this shouldn't be the VCs responsibility, but I wanted to illustrate one way of going to another VC
+    @IBAction func pushToQRContactsVC(_ sender: Any) {
+        let addContactStoryboard = UIStoryboard(name: "AddContact", bundle: nil)
+        guard let vc = addContactStoryboard.instantiateInitialViewController() as? AddContactVC else {
+            return
+        }
+        vc.setupViewModelWithRepository(contactRepository)
+        //pass data to vc here before pushing if needed
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
 
     //delegate methods
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
