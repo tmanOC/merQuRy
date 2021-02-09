@@ -106,6 +106,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04690EAC25D306D3001ED646 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				048F678325D1E2D500B60D52 /* NetworkGet.swift */,
+				048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		04690EAD25D3071F001ED646 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
+				04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		04690EAF25D3075F001ED646 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
+				04690E9F25D2D07B001ED646 /* ContactModel+Base64.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04690EB325D30785001ED646 /* String Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04690E9A25D2CF6A001ED646 /* String+Base64.swift */,
+			);
+			path = "String Extensions";
+			sourceTree = "<group>";
+		};
 		048F676F25D1DA7600B60D52 /* QRContactsVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +156,6 @@
 			children = (
 				048F676425D1AAC800B60D52 /* AddContactVC.swift */,
 				048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */,
-				048F675F25D1AA7F00B60D52 /* AddContact.storyboard */,
 			);
 			path = AddContactVC;
 			sourceTree = "<group>";
@@ -158,19 +192,17 @@
 		04F1221A25C35BAA00BB95C0 /* merQuRy */ = {
 			isa = PBXGroup;
 			children = (
+				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
+				048F676F25D1DA7600B60D52 /* QRContactsVC */,
 				048F677D25D1DAE800B60D52 /* QRContactDetailVC */,
+				048F675F25D1AA7F00B60D52 /* AddContact.storyboard */,
+				048F677625D1DAD400B60D52 /* AddContactVC */,
+				04690EAF25D3075F001ED646 /* Models */,
+				04690EAC25D306D3001ED646 /* Networking */,
+				04690EB325D30785001ED646 /* String Extensions */,
+				04690EAD25D3071F001ED646 /* Database */,
 				04F1221B25C35BAA00BB95C0 /* AppDelegate.swift */,
 				04F1221D25C35BAA00BB95C0 /* SceneDelegate.swift */,
-				048F676F25D1DA7600B60D52 /* QRContactsVC */,
-				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
-				048F677625D1DAD400B60D52 /* AddContactVC */,
-				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
-				04690E9F25D2D07B001ED646 /* ContactModel+Base64.swift */,
-				048F678325D1E2D500B60D52 /* NetworkGet.swift */,
-				048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */,
-				04690E9A25D2CF6A001ED646 /* String+Base64.swift */,
-				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
-				04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */,
 				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
 				04F1222625C35BAC00BB95C0 /* LaunchScreen.storyboard */,
 				04F1222925C35BAC00BB95C0 /* Info.plist */,
