@@ -69,7 +69,7 @@ class QRContactsVC: UITableViewController {
         let vc = QRContactDetailVC(coder: coder)
         //vc setup view model
         //
-        let contact = viewModel.getSelectedContact()
+        viewModel.getSelectedContact().flatMap{vc?.setupViewModelWithNetworkGet(networkGet: SimpleNetwork(), contact: $0)}
         //
         return vc
     }

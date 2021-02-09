@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04690E9B25D2CF6A001ED646 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690E9A25D2CF6A001ED646 /* String+Base64.swift */; };
+		04690EA025D2D07B001ED646 /* ContactModel+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690E9F25D2D07B001ED646 /* ContactModel+Base64.swift */; };
+		04690EA525D2D5E7001ED646 /* QRContactDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690EA425D2D5E7001ED646 /* QRContactDetailViewModel.swift */; };
 		048F676025D1AA7F00B60D52 /* AddContact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048F675F25D1AA7F00B60D52 /* AddContact.storyboard */; };
 		048F676525D1AAC800B60D52 /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F676425D1AAC800B60D52 /* AddContactVC.swift */; };
 		048F676A25D1BC2A00B60D52 /* AddContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04690E9A25D2CF6A001ED646 /* String+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
+		04690E9F25D2D07B001ED646 /* ContactModel+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactModel+Base64.swift"; sourceTree = "<group>"; };
+		04690EA425D2D5E7001ED646 /* QRContactDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRContactDetailViewModel.swift; sourceTree = "<group>"; };
 		048F675F25D1AA7F00B60D52 /* AddContact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddContact.storyboard; sourceTree = "<group>"; };
 		048F676425D1AAC800B60D52 /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
 		048F676925D1BC2A00B60D52 /* AddContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewModel.swift; sourceTree = "<group>"; };
@@ -124,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				048F677E25D1DB0C00B60D52 /* QRContactDetailVC.swift */,
+				04690EA425D2D5E7001ED646 /* QRContactDetailViewModel.swift */,
 			);
 			path = QRContactDetailVC;
 			sourceTree = "<group>";
@@ -158,8 +165,10 @@
 				04F1222125C35BAA00BB95C0 /* Main.storyboard */,
 				048F677625D1DAD400B60D52 /* AddContactVC */,
 				04F1225625C35D3A00BB95C0 /* ContactModel.swift */,
+				04690E9F25D2D07B001ED646 /* ContactModel+Base64.swift */,
 				048F678325D1E2D500B60D52 /* NetworkGet.swift */,
 				048F678825D1E3FA00B60D52 /* SimpleNetwork.swift */,
+				04690E9A25D2CF6A001ED646 /* String+Base64.swift */,
 				04F1226425C35F7000BB95C0 /* ContactRepository.swift */,
 				04FFF6D925CA3C25006A48F3 /* FileDatabase.swift */,
 				04F1222425C35BAC00BB95C0 /* Assets.xcassets */,
@@ -320,11 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F1224F25C35CBC00BB95C0 /* QRContactsViewModel.swift in Sources */,
+				04690EA025D2D07B001ED646 /* ContactModel+Base64.swift in Sources */,
 				048F677F25D1DB0C00B60D52 /* QRContactDetailVC.swift in Sources */,
 				048F676525D1AAC800B60D52 /* AddContactVC.swift in Sources */,
 				04F22A0925D0806700426353 /* QRContactTableViewCell.swift in Sources */,
 				04F1226525C35F7000BB95C0 /* ContactRepository.swift in Sources */,
 				048F678425D1E2D500B60D52 /* NetworkGet.swift in Sources */,
+				04690EA525D2D5E7001ED646 /* QRContactDetailViewModel.swift in Sources */,
+				04690E9B25D2CF6A001ED646 /* String+Base64.swift in Sources */,
 				04F1222025C35BAA00BB95C0 /* QRContactsVC.swift in Sources */,
 				048F676A25D1BC2A00B60D52 /* AddContactViewModel.swift in Sources */,
 				04FFF6DA25CA3C26006A48F3 /* FileDatabase.swift in Sources */,

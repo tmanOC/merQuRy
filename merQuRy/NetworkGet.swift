@@ -8,5 +8,5 @@
 import Foundation
 
 protocol NetworkGet {
-    func getDataFromURL(_ url:URL, completion:(Data?) -> ())
+    func getDataFromURL(_ url:URL, completion:@escaping (Data?) -> ())
 }
