@@ -87,17 +87,27 @@
                                     <constraint firstAttribute="width" secondItem="ZDO-7b-fWe" secondAttribute="height" multiplier="1:1" id="oet-la-vGQ"/>
                                 </constraints>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="EyP-dy-8PN">
+                                <rect key="frame" x="150" y="418" width="114" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EyP-dy-8PN" secondAttribute="height" multiplier="1:1" id="ufA-GI-ZdG"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6pO-jt-dMN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="EyP-dy-8PN" firstAttribute="leading" secondItem="6pO-jt-dMN" secondAttribute="leading" constant="150" id="8ui-kv-YvV"/>
+                            <constraint firstItem="6pO-jt-dMN" firstAttribute="trailing" secondItem="EyP-dy-8PN" secondAttribute="trailing" constant="150" id="FVY-1F-yjb"/>
                             <constraint firstItem="ZDO-7b-fWe" firstAttribute="leading" secondItem="6pO-jt-dMN" secondAttribute="leading" constant="20" id="Jy2-Id-4lS"/>
                             <constraint firstItem="6pO-jt-dMN" firstAttribute="trailing" secondItem="ZDO-7b-fWe" secondAttribute="trailing" constant="20" id="eCe-0l-pn7"/>
+                            <constraint firstItem="EyP-dy-8PN" firstAttribute="centerY" secondItem="6pO-jt-dMN" secondAttribute="centerY" id="fKz-VK-j8w"/>
                             <constraint firstItem="ZDO-7b-fWe" firstAttribute="centerY" secondItem="6pO-jt-dMN" secondAttribute="centerY" id="rnr-Ee-WdZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lcV-NN-cPV"/>
                     <connections>
+                        <outlet property="networkActivityIndicator" destination="EyP-dy-8PN" id="e8J-CY-WXQ"/>
                         <outlet property="qrImageView" destination="ZDO-7b-fWe" id="HX4-3j-dot"/>
                     </connections>
                 </viewController>
